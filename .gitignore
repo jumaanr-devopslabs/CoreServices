@@ -3,6 +3,10 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+#remove all the .exe and nupkg Files
+**/*.exe
+**/*.nupkg
+
 # User-specific files
 *.rsuser
 *.suo
